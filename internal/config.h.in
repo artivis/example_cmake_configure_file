@@ -1,0 +1,10 @@
+#ifndef INTERNAL_CONFIG_H_
+#define INTERNAL_CONFIG_H_
+
+#cmakedefine MY_VAR
+
+#cmakedefine01 MY_BIN_VAR
+
+#define MY_VALUED_VAR ${MY_VALUED_VAR}
+
+#endif  /* INTERNAL_CONFIG_H_ */
